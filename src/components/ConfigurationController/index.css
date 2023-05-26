@@ -1,0 +1,10 @@
+.configurationControllerContainer {
+  font-family: 'Roboto';
+  font-weight: bold;
+  background-color: #475569;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}

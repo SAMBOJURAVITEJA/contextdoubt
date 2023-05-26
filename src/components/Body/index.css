@@ -1,0 +1,49 @@
+.RightNavbarContainer {
+  font-family: 'Roboto';
+  padding: 5px;
+  font-weight: bold;
+  height: 200px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e2e8f0;
+}
+.h1 {
+  font-size: 10px;
+}
+ul {
+  font-family: 'Roboto';
+  padding-left: 0px;
+  list-style-type: none;
+  font-weight: bold;
+}
+.LeftNavbarMenuContainer {
+  font-family: 'Roboto';
+  padding: 5px;
+  flex-grow: 1;
+  height: 200px;
+  font-weight: bold;
+  background-color: #e2e8f0;
+}
+
+.content-container {
+  font-family: 'Roboto';
+  padding: 5px;
+  flex-grow: 1;
+  font-weight: bold;
+  background-color: #f1f5f9;
+}
+.body-container {
+  display: flex;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border: 2px solid #64748b;
+}
