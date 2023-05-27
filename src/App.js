@@ -37,12 +37,12 @@ class App extends Component {
           onToggleShowRightNavbar: this.onToggleShowRightNavbar,
         }}
       >
-        return(
+ 
         <div className="bg-container">
           <ConfigurationController />
           <Layout />
         </div>
-        )
+        
       </configurationContext.Provider>
     )
   }
