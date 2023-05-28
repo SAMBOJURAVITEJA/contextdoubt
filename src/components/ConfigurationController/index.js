@@ -36,7 +36,7 @@ const ConfigurationController = () => (
             <div className="ccContainer-1">
               <input
                 type="checkbox"
-                checked
+                checked={showContent}
                 onChange={onChange1}
                 id="checkbox1"
               />
@@ -44,7 +44,12 @@ const ConfigurationController = () => (
             </div>
           ) : (
             <div className="ccContainer-1">
-              <input type="checkbox" onChange={onChange1} id="checkbox1" />
+              <input
+                type="checkbox"
+                value={showContent}
+                onChange={onChange1}
+                id="checkbox1"
+              />
               <label htmlFor="checkbox1">Content</label>
             </div>
           )}
@@ -52,7 +57,7 @@ const ConfigurationController = () => (
             <div className="ccContainer-2">
               <input
                 type="checkbox"
-                checked
+                checked={showLeftNavbar}
                 onChange={onChange2}
                 id="checkbox2"
               />
@@ -60,7 +65,12 @@ const ConfigurationController = () => (
             </div>
           ) : (
             <div className="ccContainer-2">
-              <input type="checkbox" onChange={onChange2} id="checkbox2" />
+              <input
+                value={showLeftNavbar}
+                type="checkbox"
+                onChange={onChange2}
+                id="checkbox2"
+              />
               <label htmlFor="checkbox2">Left Navbar</label>
             </div>
           )}
@@ -68,7 +78,7 @@ const ConfigurationController = () => (
             <div className="ccContainer-3">
               <input
                 type="checkbox"
-                checked
+                checked={showRightNavbar}
                 onChange={onChange3}
                 id="checkbox3"
               />
@@ -76,7 +86,12 @@ const ConfigurationController = () => (
             </div>
           ) : (
             <div className="ccContainer-3">
-              <input type="checkbox" onChange={onChange3} id="checkbox3" />
+              <input
+                value={showRightNavbar}
+                type="checkbox"
+                onChange={onChange3}
+                id="checkbox3"
+              />
               <label htmlFor="checkbox3">Right Navbar</label>
             </div>
           )}
